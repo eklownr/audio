@@ -62,27 +62,28 @@ def play_file(file):
     except Exception as e:
         parser.exit(type(e).__name__ + ': ' + str(e))
     
-
-print("Playing E oktav 2.   󰽰 󰝚 ")
+print("#"*30)
+print("#  Playing E oktav 2.   󰽰 󰝚  #")
 play_file('../sounds/e2.mp3')
 current_frame = 0
 
-print("Playing A oktav 2.   󰽰 󰝚 ")
+print("#  Playing A oktav 2.   󰽰 󰝚  #")
 play_file('../sounds/a2.mp3')
 current_frame = 0
 
-print("Playing D oktav 3.   󰽰 󰝚 ")
+print("#  Playing D oktav 3.   󰽰 󰝚  #")
 play_file('../sounds/d3.mp3')
 current_frame = 0
 
-print("Playing G oktav 3.   󰽰 󰝚 ")
+print("#  Playing G oktav 3.   󰽰 󰝚  #")
 play_file('../sounds/g3.mp3')
 current_frame = 0
 
-print("Playing B oktav 3.   󰽰 󰝚 ")
+print("#  Playing B oktav 3.   󰽰 󰝚  #")
 play_file('../sounds/b3.mp3')
 current_frame = 0
 
-print("Playing E oktav 4.   󰽰 󰝚 ")
+print("#  Playing E oktav 4.   󰽰 󰝚  #")
 play_file('../sounds/e4.mp3')
 current_frame = 0
+print("#"*30)
